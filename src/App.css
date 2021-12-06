@@ -3,13 +3,24 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  margin-top: 5rem;
+  height: 20vmin;
   pointer-events: none;
+}
+
+button {
+  background-color: #fb6161;
+  color: white;
+  font-size: large;
+  padding: .5em;
+  border: none;
+  margin: auto;
+  margin-top:1.5em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 6s linear;
   }
 }
 
@@ -25,7 +36,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fb6161;
 }
 
 @keyframes App-logo-spin {
